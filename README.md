@@ -8,7 +8,7 @@
 3. Database: PostgresSql
 
 
-####About the Project
+#### About the Project
 
 1. This a web application to manage covid resources like vaacine,beds,oxygen cylinders etc..
 2. There are mainly 4 users 
@@ -23,16 +23,16 @@
     - download the zip file extract it
     - cd in extracted folder
     - make a virtual environment
-       # python -m venv venv
+        - python -m venv venv
     - activate venv
-       # source venv/bin/activate
+        - source venv/bin/activate
     - install dependencies
-       # python -r install requirements.txt
+        - python -r install requirements.txt
 
     - migrate database
-        # python manage.py makemigartions
-        # python manage.py migrate
+         - python manage.py makemigartions
+         - python manage.py migrate
 
     - change data base credentials in settings.py in the folder covrm
      
-     
+
